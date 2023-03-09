@@ -79,3 +79,81 @@ body {
         align-self: center;
     }
 }
+
+@media only screen and (min-width: 768px) {
+
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 15px;
+        padding: 15px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #9723c9;
+    }
+
+    #nav-bar {
+        align-self: center;
+    }
+
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+    
+    #header-img {
+        max-width: 5em;
+        height: auto;
+    }
+
+
+    .video-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    #video {
+        width: auto;
+        height: 300px;
+        max-width: 300px;
+        max-height: 280px;
+    }
+
+    #pricing-plan {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .plan {
+        border-radius: 15px;
+        border: solid 1px black;
+        padding: 10px 15px;
+        background-color: yellow;
+    }
+
+    .price {
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    #form {
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #submit {
+        align-self: center;
+    }
+
+    #email {
+        align-self: center;
+    }
+}
