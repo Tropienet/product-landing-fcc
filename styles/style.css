@@ -2,17 +2,33 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    height: 100vh;
+}
+
 @media only screen and (max-width: 600px) {
 
     #header {
         display: flex;
         justify-content: space-between;
-        margin: 15px 5px;
+        margin: 0 0 15px;
         padding: 15px;
         position: fixed;
         width: 100%;
         top: 0;
         left: 0;
+        background-color: #9723c9;
+    }
+
+    #nav-bar {
+        align-self: center;
+    }
+
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        margin: 0 5px;
     }
     
     #header-img {
@@ -34,4 +50,32 @@
         max-height: 280px;
     }
 
+    #pricing-plan {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .plan {
+        border-radius: 15px;
+        border: solid 1px black;
+        padding: 10px 2px;
+        background-color: yellow;
+    }
+
+    .price {
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    #form {
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #submit {
+        align-self: center;
+    }
 }
